@@ -1,0 +1,12 @@
+Refusal:
+  data_path: "/home/zhu.3723/code/code/quadratic_probe/llm_refusal/refusal-aird/dataset"
+  split_filename: "splits/{harmtype}_{split}.json"
+  balance: true
+
+Sycophancy:
+  data_path: "/home/zhu.3723/code/code/quadratic_probe/data/syco/sycophancy"
+  topics:
+    - "sycophancy_on_nlp_survey"
+    - "sycophancy_on_philpapers2020"
+    - "sycophancy_on_political_typology_quiz"
+  max_examples_per_topic: null
